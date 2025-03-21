@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #1c1c2c;
+    background-color: #1c1c21;
     color: #fff;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .logo-img {
-    width: 80px;
+    width: 40px;
     height: auto;
     margin-right: 10px;
 }

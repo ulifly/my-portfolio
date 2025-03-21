@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Navbar from "../components/Navbar.jsx";
 import NavbarES from "../components/NavbarEs.jsx";
 // import HeroSection from "../components/HeroSection.jsx";
-// import HeroSectionES from "../components/HeroSectionEs.jsx";
+import HeroSectionES from "../components/HeroSectionEs.jsx";
 // import ServicesSection from "../components/ServicesSection.jsx";
 // import PortfolioSection from "../components/PortfolioSection.jsx";
 // import AboutSection from "../components/AboutSection.jsx";
@@ -37,14 +37,14 @@ export default function Home() {
       <main>
         {language === 'es' ? (
           <>
-            {/* <HeroSectionES />
-            <ServicesSection title="Servicios" />
-            <PortfolioSection title="Portafolio" />
-            <AboutSection title="Acerca de" />
-            <TestimonialsSection title="Testimonios" />
-            <ConnectSection title="Conéctate" />
-            <CTASection title="Llamada a la acción" />
-            <ContactSection title="Contacto" /> */}
+            <HeroSectionES />
+            {/* <ServicesSection title="Servicios" /> */}
+            {/* <PortfolioSection title="Portafolio" /> */}
+            {/* <AboutSection title="Acerca de" /> */}
+            {/* <TestimonialsSection title="Testimonios" /> */}
+            {/* <ConnectSection title="Conéctate" /> */}
+            {/* <CTASection title="Llamada a la acción" /> */}
+            {/* <ContactSection title="Contacto" /> */}
           </>
         ) : (
           <>
